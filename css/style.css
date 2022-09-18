@@ -1,0 +1,57 @@
+/* PART 1: Write these rules on your own. */
+
+body{
+  font-family: courier;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1{
+  font-size: 32px;
+  color: rgb(18, 141, 237);
+  font-weight: bold;
+
+}
+
+p{
+  font-size: 14pt;
+  line-height: 2;
+  padding: 0px 10px
+}
+
+
+/* Part 2: And now debug..... */
+a{
+  /* make your links red, use italics, and be underlined */
+  color:red;
+  font-style: italics;
+  text-decoration: underline;
+}
+
+
+a:hover{
+  /* make the background color of your link black and the text white when you hover over it */
+  color:white;
+  background-color: black;
+
+}
+
+img{
+  /* make the image 300px wide and 220px high, 10px of padding, and a 10px dashed border in the color of your choice */
+  width: 300px;
+  height: 220px;
+  padding: 10px;
+  border: 10px #1ba550;
+}
+
+
+ul{
+  /* make bullet points red squares */
+  list-style: square;
+  color: red;
+}
+
+.footer{
+  /* style the footer so it has a black background and white text */
+
+}
