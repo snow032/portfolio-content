@@ -1,57 +1,55 @@
-/* PART 1: Write these rules on your own. */
+nav li{
+  display:inline;
+  padding-right:20px;
+
+  }
+
+  nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: dashed;
+    text-align: right;
+    padding: 20px 10px;
+  }
+  
+  nav a:hover{
+    text-decoration: overline;
+    text-decoration-style: dotted;
+  }
+  
+  nav a:active{ background-color:chocolate;
+
+  }
 
 body{
-  font-family: courier;
-  margin: 10px;
-  padding: 10px;
-}
+    font-family: Verdana, Arial;
+    padding: 25px;
+  }
+  
+  h1, h2, h3{
+    font-size: 36px;
+    padding: 15px;
+  
+  }
+  
+  p{
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-left:15px;
+  }
+  
+  .a-image, .b-image, .c-image, .d-image, .e-image, img{
+    height: fit-content;
+    width: auto;
+    border: 2px solid coral;
+    border-radius: 5%;
+    padding: 6px 10px 4px 10px;
+    margin: 50px;
+  }
 
-h1{
-  font-size: 32px;
-  color: rgb(18, 141, 237);
-  font-weight: bold;
-
-}
-
-p{
-  font-size: 14pt;
-  line-height: 2;
-  padding: 0px 10px
-}
-
-
-/* Part 2: And now debug..... */
-a{
-  /* make your links red, use italics, and be underlined */
-  color:red;
-  font-style: italics;
-  text-decoration: underline;
-}
-
-
-a:hover{
-  /* make the background color of your link black and the text white when you hover over it */
-  color:white;
-  background-color: black;
-
-}
-
-img{
-  /* make the image 300px wide and 220px high, 10px of padding, and a 10px dashed border in the color of your choice */
-  width: 300px;
-  height: 220px;
-  padding: 10px;
-  border: 10px #1ba550;
-}
-
-
-ul{
-  /* make bullet points red squares */
-  list-style: square;
-  color: red;
-}
-
-.footer{
-  /* style the footer so it has a black background and white text */
-
-}
+  .a-image, .b-image, .c-image, .d-image, .e-image, img:hover{
+    background-color: bisque;
+    opacity: 0.8;
+    transition: .5s ease;
+    color: chocolate;
+  }
