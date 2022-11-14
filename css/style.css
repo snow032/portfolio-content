@@ -85,7 +85,7 @@ img{
   
 img{
   display: flex;
-  height: fit-content;
+  height: auto;
   width: 400px;
   border: 2px solid rgb(108, 34, 9);
   border-radius: 5%;
