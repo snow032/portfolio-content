@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel= "stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FF72RWL3HY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FF72RWL3HY');
+    </script>
+  </head>
+
+  <body class= "whole_contact_page">
+    <a class = "skip" href="#skip">Skip to main content</a>
+    <header id="header" class="grid">
+      <nav id = "nav_bar">
+        <ul class="fa-ul">
+          <li ><i class="fa-li fa fa-heart"></i></li>
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="sunform.html">Playground</a></li>
+          <li class="nav-item"><a href="projects.html">project</a></li>
+          <li class="nav-item"><a href="expectation.html">Resume</a></li>
+          <li class="nav-item active-page"><a class = "current" href = "contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Main Area-->
+    <main id="main">
+      <div class="contact">
+        <h1>Contact Me</h1>
+        <p><br>Thank you for viewing my website. I would like to hear any comments, questions, and advice from you. If you want to share your story, your knowledge, or job opportunities, please feel free to reach out.</p>
+        <form
+          action="https://formspree.io/f/xzbwnbkq"
+          method="POST"
+        >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
